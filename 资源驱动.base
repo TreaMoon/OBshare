@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "resource"
+    order:
+      - file.name
+      - tags
+      - resourceType
+      - mindmap
+      - description
+      - link
+    sort:
+      - property: tags
+        direction: DESC
+      - property: link
+        direction: ASC
+    columnSize:
+      note.tags: 97
+      note.resourceType: 77
+      note.mindmap: 106
+      note.description: 250
+      note.link: 111
