@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - type == "idea"
+        - type == "output"
+    order:
+      - file.name
+      - tags
+      - type
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 198
+      note.tags: 122
