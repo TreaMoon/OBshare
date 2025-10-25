@@ -8,7 +8,7 @@
 对于生产力的了解肯定不会局限于[[AliAbdaal]]，可能会去学习更多的，也会在这分享
 
 有两种方式获得这个库
-github链接：
+github链接：https://github.com/TreaMoon/OBshare
 123云盘链接：https://www.123684.com/s/4JV5Td-nLdM
 
 ##### 更新记录
